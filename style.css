@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-size: 15px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 100px;
+    padding: 50px;
+    height: 50vh;
+    width: 70vw;
+    border-radius: 4rem;
+}
+
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 10px;
+}
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 10px;
+
+}
+button{
+    background-color:  hsl(0, 0%, 95%);
+    margin-top: 60px;
+    margin-left: 34px;
+    box-decoration-break: unset;
+    border-radius: 25px;
+    border: hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
+    padding: 15px;
+
+}
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    padding: 15px;
+}
+
+.suvs{
+    background-color:hsl(184, 100%, 22%);
+    padding: 15px;
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    padding: 15px;
+}
+
+@media ma {
+    
+}
